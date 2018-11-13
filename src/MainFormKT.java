@@ -27,6 +27,8 @@ public class MainFormKT extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        buttonGroup2 = new javax.swing.ButtonGroup();
         jLabel1 = new javax.swing.JLabel();
         txtNilai = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
@@ -47,18 +49,24 @@ public class MainFormKT extends javax.swing.JFrame {
 
         jLabel2.setText("From");
 
+        buttonGroup1.add(rbFromCelcius);
         rbFromCelcius.setText("Celcius");
 
+        buttonGroup1.add(rbFromFahrenheit);
         rbFromFahrenheit.setText("Fahrenheit");
 
+        buttonGroup1.add(rbFromCalvin);
         rbFromCalvin.setText("Calvin");
 
         jLabel3.setText("To");
 
+        buttonGroup2.add(rbToCelcius);
         rbToCelcius.setText("Celcius");
 
+        buttonGroup2.add(rbToFahrenheit);
         rbToFahrenheit.setText("Fahrenheit");
 
+        buttonGroup2.add(rbToCalvin);
         rbToCalvin.setText("Calvin");
 
         btnCalculate.setText("Calculate!");
@@ -225,6 +233,8 @@ public class MainFormKT extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCalculate;
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
